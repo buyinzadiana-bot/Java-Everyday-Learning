@@ -1,5 +1,4 @@
-public class Inheritance {
-    class Character {
+public class Character {
         String name;
         int health;
 
@@ -10,7 +9,12 @@ public class Inheritance {
         void attacks() {
             System.out.println(name + "attacks");
         }
-    }
-
-
-}
+    }}
+//
+////SINGLE INHERITANCE?
+//    class Warrior extends Character {
+//        void useSword(){
+//            System.out.println(name );
+//        }
+//}
+//}
