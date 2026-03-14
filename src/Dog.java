@@ -6,6 +6,13 @@ public class Dog extends ANIMALPolymorphism{
     }
 //    overriding  parent class munch munch
 
+    public void eat(int numberOfTimes) {
+        for (int i = 0; i < numberOfTimes; i++) {
+            System.out.println("chomp chomp");
+        }
+//        methord overloading
+    }
+
     public int getBreed(){
         return breed;
     }

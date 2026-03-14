@@ -11,7 +11,7 @@ public class Main {
         ANIMALPolymorphism myAnimal = new ANIMALPolymorphism();
         myAnimal.eat();
         Dog myDog = new Dog();
-        myDog.eat();
+        myDog.eat(3);
         Cat myCat = new Cat();
         myCat.eat();
 
