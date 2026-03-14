@@ -1,6 +1,10 @@
 public class Cat extends ANIMALPolymorphism{
     private String litterPreference;
 
+    public void eat(){
+        System.out.println("nom nom");
+    }
+
     public String getLitterPreference(){
         return litterPreference;
     }

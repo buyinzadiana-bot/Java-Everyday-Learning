@@ -12,6 +12,8 @@ public class Main {
         myAnimal.eat();
         Dog myDog = new Dog();
         myDog.eat();
+        Cat myCat = new Cat();
+        myCat.eat();
 
     }
 }
