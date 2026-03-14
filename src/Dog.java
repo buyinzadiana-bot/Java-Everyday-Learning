@@ -2,7 +2,7 @@ public class Dog extends ANIMALPolymorphism{
     private int breed;
 
     public void eat(){
-        System.out.println("chomp chomp");
+//        System.out.println("chomp chomp"); overriding  parent class munch
     }
 
     public int getBreed(){
