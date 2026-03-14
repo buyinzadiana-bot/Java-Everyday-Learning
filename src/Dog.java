@@ -4,4 +4,12 @@ public class Dog extends ANIMALPolymorphism{
     public void eat(){
         System.out.println("chomp chomp");
     }
+
+    public int getBreed(){
+        return breed;
+    }
+
+    public void setBreed(int breed){
+        this.breed = breed;
+    }
 }
